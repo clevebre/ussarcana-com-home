@@ -48,6 +48,7 @@ nav.constellation.map h2{display:none}
 nav.constellation.map b{font-size:17px}
 nav.constellation.map .w{font-size:15px}
 footer a.sign{border-bottom:1px solid var(--under)}
+.vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 footer{text-align:center;color:var(--muted);font-size:13.5px;padding:22px 20px 28px}
 footer a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--under)}
 footer .sign{font-family:"Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;font-style:italic}
