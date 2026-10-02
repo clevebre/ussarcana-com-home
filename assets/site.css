@@ -176,5 +176,9 @@ li.aboard b{font-family:var(--head);font-weight:600;font-size:17.5px;line-height
 li.aboard a:hover b{text-decoration:underline;text-decoration-color:var(--b);text-underline-offset:5px}
 li.aboard .rel{color:var(--muted);font-size:14.5px}
 li.aboard .year{color:var(--muted);font-size:14px;font-variant-numeric:tabular-nums;flex:none}
+.flyby{margin:64px 0 0}
+figure.film{margin:18px 0 0}
+figure.film video{display:block;width:100%;height:auto;background:#000;border:1px solid rgba(201,212,234,.14)}
+figure.film figcaption{color:var(--muted);font-size:14px;margin-top:10px;max-width:var(--read)}
 ul.go{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px;max-width:var(--read)}ul.go a{font-weight:600;text-underline-offset:4px}
 @media (prefers-reduced-motion:no-preference){figure.plate.hero img{animation:emerge 2.2s ease-out both}@keyframes emerge{from{opacity:0;transform:scale(1.015)}to{opacity:1;transform:none}}}
